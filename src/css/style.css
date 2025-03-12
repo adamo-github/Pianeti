@@ -1,0 +1,118 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+/* css reset */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+/* utils */
+
+address{
+  display: inline-block;
+}
+
+dt{
+  display: inline-block;
+  min-width: 200px;
+}
+
+dd{
+  display: inline-block;
+}
+.bold{
+  font-weight: bold;
+}
+
+/* header */
+
+.titolo{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #14213D;
+    color:#FCA311;
+    min-height: 300px;
+    font-size: 44px;
+    line-height: 300px;
+    text-shadow: 2px 2px 2px #E5E5E5;
+    word-spacing: 2px;
+}
+
+/* main */
+
+main{
+    background-color: #E5E5E5;
+    padding: 20px 20px 0 ;
+}
+
+
+.intro {
+    background-color: #FCA311;
+    color: #14213D;
+    padding: 30px;
+    border: 2px solid #14213D;
+}
+
+.intro-header{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 30px; 
+}
+
+.cards{
+  font-size: 0;
+  margin-top: 20px;
+}
+
+.card{
+    display: inline-block;
+    border: 1px solid #14213D;
+    margin-bottom: 20px;
+    width: 30%;
+    font-size: 14px;
+    min-height: 250px;
+}
+
+.card.central {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.card-name{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid #14213D;
+}
+
+.card-text{
+  padding: 25px;
+}
+
+.card-footer{
+  padding: 25px;
+  text-align: center;
+  border-top: 1px solid #14213D;
+  cursor: pointer;
+}
+
+/* footer */
+
+.author{
+  color: #14213D;
+  text-decoration: underline;
+}
+
+footer{
+  background-color: #FCA311;
+  padding: 20px;
+}
